@@ -106,3 +106,11 @@ body {
         flex-direction: column !important;
     }
 }
+
+h1 {
+    font-family: "Century Gothic";
+}
+
+p {
+    font-family: "Century Gothic";
+}
