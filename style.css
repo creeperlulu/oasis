@@ -10,7 +10,7 @@ main {
 }
 
 body {
-    background-color: #ffad70;
+    background-color: #da9561;
     background-size: 100% 100%;
     color: white;
     
@@ -25,7 +25,7 @@ body {
 }
 
 .heading {
-    background-color: #ffae7080;
+    background-color: #da956180;
     backdrop-filter: blur(10px);
     position: sticky;
     padding: 1em 15%;
@@ -129,9 +129,12 @@ p {
 .presentation {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
     min-height: 80vh;
     align-items: center;
     
+}
+
+.textpresentation{
+    width: 65%;
 }
