@@ -6,14 +6,22 @@ main {
 
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 80%;
 }
 
 body {
     background-color: #ffad70;
-    /*color: white;*/
-    margin: 0px;
     background-size: 100% 100%;
+    color: white;
+    
+    font-family: "Century Gothic";
+    font-weight: bold;
+    margin: 0px;
+    
+}
+
+.emphasize {
+    color: #9e6437;
 }
 
 .heading {
@@ -108,9 +116,22 @@ body {
 }
 
 h1 {
-    font-family: "Century Gothic";
+    font-size: 7vh;
+    margin: 0px;
+    margin-bottom: 0.5em;
 }
 
 p {
-    font-family: "Century Gothic";
+    font-size: 3vh;
+    margin: 0px;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 80vh;
+    align-items: center;
+    
 }
