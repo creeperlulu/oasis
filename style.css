@@ -20,10 +20,9 @@
 }
 
 main {
-
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%
 }
 
 body {
@@ -37,9 +36,7 @@ body {
 
 }
 
-.emphasize {
-    color: #9e6437;
-}
+
 
 .header {
     background-color: #da956180;
@@ -153,11 +150,15 @@ p {
 
 
 .presentation {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-height: 80vh;
+    min-height: 100vh;
     align-items: center;
+    padding-bottom: 20vh;
 
 }
 
@@ -167,6 +168,10 @@ p {
 
 .textpresentation {
     width: 65%;
+}
+
+.presentation .emphasize {
+    color: #9e6437;
 }
 
 .footer {
@@ -220,17 +225,21 @@ p {
 }
 
 .about {
-    background-image: url(resources/paper.png);
-    color:black;
+    background: center / cover no-repeat url(resources/paper.png);
+    color: black;
+
+
+}
+
+.aboutcontent {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     min-height: 50vh;
     align-items: center;
-    background-size: 100% 100%;
-    margin-left: auto;
-    margin-right: auto;
-    width: inherit;
 }
 
 .textabout {
@@ -247,4 +256,8 @@ p {
     font-size: 2em;
     font-family: "QuickPencil";
     font-weight: normal;
+}
+
+.about .emphasize {
+    font-weight: bold;
 }
