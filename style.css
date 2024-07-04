@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "Rudiment";
+    src: url('resources/fonts/Rudiment.ttf');
+}
+
+@font-face {
+    font-family: "SketchMe";
+    src: url('resources/fonts/SketchMe.ttf');
+}
+
+@font-face {
+    font-family: "QuickPencil";
+    src: url('resources/fonts/QuickPencil.ttf');
+}
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -13,11 +30,11 @@ body {
     background-color: #da9561;
     background-size: 100% 100%;
     color: white;
-    
+
     font-family: "Century Gothic";
     font-weight: bold;
     margin: 0px;
-    
+
 }
 
 .emphasize {
@@ -122,10 +139,18 @@ h1 {
     margin-bottom: 0.5em;
 }
 
+h2 {
+    font-size: 5em;
+    margin: 0px;
+    margin-bottom: 0.5em;
+}
+
 p {
-    font-size: 3vh;
+    font-size: 1em;
     margin: 0px;
 }
+
+
 
 .presentation {
     display: flex;
@@ -133,15 +158,19 @@ p {
     justify-content: space-between;
     min-height: 80vh;
     align-items: center;
-    
+
 }
 
-.textpresentation{
+.presentation p {
+    font-size: 3vh;
+}
+
+.textpresentation {
     width: 65%;
 }
 
 .footer {
-    background-color: rgba(42, 42, 42, 0.5);
+    background-color: #da9561;
     backdrop-filter: blur(10px);
     position: sticky;
     padding: 1em 15% 1em 15%;
@@ -188,4 +217,34 @@ p {
 .botcredits p {
     font-size: 1em;
     padding-left: 1em;
+}
+
+.about {
+    background-image: url(resources/paper.png);
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 50vh;
+    align-items: center;
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
+}
+
+.textabout {
+    width: 65%;
+}
+
+.textabout h2 {
+    font-family: "QuickPencil";
+    font-weight: normal;
+}
+
+
+.textabout p {
+    font-size: 2em;
+    font-family: "QuickPencil";
+    font-weight: normal;
 }
