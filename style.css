@@ -134,6 +134,10 @@ body {
         flex-direction: column !important;
         align-items: center !important;
     }
+
+    .botbar p {
+        text-align: end;
+    }
 }
 
 h1 {
@@ -299,17 +303,45 @@ p {
 }
 
 .oasisos {
+    display: flex;
+    min-height: 20em;
+    margin: 5px;
+    padding: 15px;
     border-radius: 15px;
     background-color: #0f0e0d;
     border: 1px solid #523a2f;
     color: white;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.2s ease-in-out;
+}
+
+.oasisos:hover {
+    padding: 11px;
+    border: 5px solid #523a2f;
+    transition: all 0.2s ease-in-out;
 }
 
 .ribot {
+    display: flex;
+    min-height: 20em;
+    padding: 15px;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
     border-radius: 15px;
     background-color: #55c661;
     border: 1px solid #86e090;
     color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.ribot:hover {
+    padding: 11px;
+    border: 5px solid #86e090;
+    transition: all 0.2s ease-in-out;
 }
 
 .oasisos p {
@@ -319,4 +351,16 @@ p {
 .oasisos .smalldesc {
     color: #a79c91;
     font-style: italic;
+}
+
+.ribot .smalldesc {
+    color: #477642;
+    font-style: italic;
+}
+
+.projcards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 1em;
 }
