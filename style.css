@@ -13,6 +13,12 @@
     src: url('resources/fonts/QuickPencil.ttf');
 }
 
+@font-face {
+    font-family: "Century Gothic";
+    src: url('resources/fonts/CenturyGothic.ttf');
+}
+
+
 
 
 * {
@@ -304,4 +310,13 @@ p {
     background-color: #55c661;
     border: 1px solid #86e090;
     color: black;
+}
+
+.oasisos p {
+    font-size: 1em;
+}
+
+.oasisos .smalldesc {
+    color: #a79c91;
+    font-style: italic;
 }
