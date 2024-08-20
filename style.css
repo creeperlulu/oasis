@@ -48,7 +48,7 @@ body {
     background-color: #da956180;
     backdrop-filter: blur(10px);
     position: sticky;
-    padding: 1em 15%;
+    padding: 1em 10%;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -138,7 +138,43 @@ body {
     .botbar p {
         text-align: end;
     }
+
+    .projcards {
+        flex-wrap: wrap !important;
+    }
+
+    .oasisos, .ribot {
+        width: 100% !important;
+    }
+
+    .textabout {
+        width: 100% !important;
+    }
+
+    .presentation {
+        flex-direction: column-reverse !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .presentation h1 {
+        font-size: 5vh !important;
+    }
+
+    .textpresentation {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .textpresentation h1{
+        text-align: center;
+    }
 }
+
+
 
 h1 {
     margin: 0px;
@@ -190,14 +226,30 @@ p {
 }
 
 .presentation .emphasize {
-    color: #9e6437;
+    color: #713d12;
 }
+
+.button {
+    transition: all .5s ease 0s;
+    background: #713d12;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 2vh;
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}   
 
 .footer {
     background-color: #da9561;
     backdrop-filter: blur(10px);
     position: sticky;
-    padding: 1em 15% 1em 15%;
+    padding: 1em 10%;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -316,6 +368,21 @@ p {
 
 .productscontent a {
     width: fit-content;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.oasisos a span {
+    color: white;
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+
+.ribot a span {
+    color: black;
+    font-size: 0.8em;
+    margin-left: 1em;
 }
 
 .oasisos {
@@ -330,7 +397,6 @@ p {
     width: 50%;
     flex-direction: column;
     justify-content: space-between;
-    transition: all 0.2s ease-in-out;
 }
 
 .ribot {
