@@ -180,6 +180,14 @@ body {
     .aboutcontent {
         flex-direction: column !important;
     }
+
+    .gradient, #pc{
+        opacity: 0 !important;
+    }
+
+    .gradient, #mobile {
+        opacity: 1 !important;
+    }
 }
 
 
@@ -207,6 +215,22 @@ p {
 }
 
 
+.gradient {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: calc(100% + 83px);
+    z-index: -1;
+}
+
+.gradient, #pc{
+    opacity: 1;
+}
+
+.gradient, #mobile {
+    opacity: 0;
+}
 
 .presentation {
     margin-left: auto;
@@ -234,7 +258,7 @@ p {
 }
 
 .presentation .emphasize {
-    color: #713d12;
+    color: #532d0d;
 }
 
 .button {
@@ -271,7 +295,7 @@ p {
     fill: #ffe1c7;
 }
 
-.footer svg :hover{
+.footer a :hover{
     fill: white;
     color: #FF0000;
     text-decoration: none;
