@@ -145,7 +145,14 @@ body {
 
     .oasisos, .ribot {
         width: 100% !important;
+        flex-direction: column !important;
+        padding: 15px !important;
     }
+
+    .oasisos embed, .ribot embed {
+            width: 100% !important;
+            margin-bottom: 1em;
+        }
 
     .textabout {
         width: 100% !important;
@@ -425,28 +432,44 @@ p {
     display: flex;
     min-height: 20em;
     margin: 5px;
-    padding: 15px;
+    padding: 50px;
     border-radius: 15px;
     background-color: #0f0e0d;
     border: 1px solid #523a2f;
     color: white;
-    width: 50%;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+
+.oasisos #text {
+    display: flex;
+    min-height: 15em;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .ribot {
     display: flex;
     min-height: 20em;
-    padding: 15px;
-    width: 50%;
-    flex-direction: column;
-    justify-content: space-between;
     margin: 5px;
+    padding: 50px;
     border-radius: 15px;
     background-color: #55c661;
     border: 1px solid #86e090;
     color: black;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.ribot #text {
+    display: flex;
+    min-height: 15em;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .oasisos p {
@@ -465,7 +488,7 @@ p {
 
 .projcards {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     margin-top: 1em;
 }
