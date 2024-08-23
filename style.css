@@ -149,7 +149,12 @@ body {
         padding: 15px !important;
     }
 
-    .oasisos embed, .ribot embed {
+    .oasisos #text, .ribot #text {
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+
+    .oasisos img, .ribot img {
             width: 100% !important;
             margin-bottom: 1em;
         }
@@ -448,6 +453,8 @@ p {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+    width: 50%;
+    margin-left: 50px;
 }
 
 .ribot {
@@ -470,6 +477,8 @@ p {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+    width: 50%;
+    margin-left: 50px;
 }
 
 .oasisos p {
