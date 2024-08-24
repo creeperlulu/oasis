@@ -100,7 +100,7 @@ body {
     .navbar {
         display: none;
         width: 100%;
-        background-color: rgba(42, 42, 42, 0.5);
+        background-color: #da9561c2;
         backdrop-filter: blur(10px);
     }
 
@@ -198,6 +198,7 @@ body {
     }
 
     .gradient, #mobile {
+        top: 30px !important;
         opacity: 1 !important;
     }
 }
@@ -232,7 +233,7 @@ p {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: calc(100% + 83px);
+    height: calc(95vh + 19%);
     z-index: -1;
 }
 
@@ -438,7 +439,8 @@ p {
     margin: 5px;
     padding: 50px;
     border-radius: 15px;
-    background-color: #0f0e0d;
+    background-image: url(resources/oasisosgradient.png);
+    background-size: 100% 100%;
     border: 1px solid #523a2f;
     color: white;
     flex-direction: row;
@@ -462,7 +464,8 @@ p {
     margin: 5px;
     padding: 50px;
     border-radius: 15px;
-    background-color: #55c661;
+    background-image: url(resources/ribotgradient.png);
+    background-size: 100% 100%;
     border: 1px solid #86e090;
     color: black;
     flex-direction: row;
